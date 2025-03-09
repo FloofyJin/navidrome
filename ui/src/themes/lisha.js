@@ -4,54 +4,54 @@ export default {
   themeName: 'Lisha',
   palette: {
     secondary: {
-      light: '#daa09f',
-      dark: '#9a5a5a',
-      main: '#f8eae8',
+      light: '#eb918a',
+      dark: '#dbaaa7',
+      main: '#fce3e1',
       contrastText: '#fff',
     },
   },
   overrides: {
     MuiFilledInput: {
       root: {
-        backgroundColor: 'rgba(255, 182, 193, 0.04)', // Light pink background
+        backgroundColor: 'rgba(252, 227, 225, 0.04)',
         '&$disabled': {
-          backgroundColor: 'rgba(255, 182, 193, 0.04)',
+          backgroundColor: 'rgba(252, 227, 225, 0.04)',
         },
       },
     },
     NDLogin: {
       main: {
         '& .MuiFormLabel-root': {
-          color: '#9a5a5a',
+          color: '#eb918a',
         },
         '& .MuiFormLabel-root.Mui-focused': {
-          color: '#daa09f',
+          color: '#eb918a',
         },
         '& .MuiFormLabel-root.Mui-error': {
           color: '#f44336',
         },
         '& .MuiInput-underline:after': {
-          borderBottom: '2px solid #daa09f',
+          borderBottom: '2px solid #eb918a',
         },
       },
       card: {
         minWidth: 300,
         marginTop: '6em',
-        backgroundColor: '#f8eae8e6',
+        backgroundColor: '#fce3e1e6',
       },
       avatar: {},
       icon: {},
       button: {
-        boxShadow: '3px 3px 5px #9a5a5aa3',
+        boxShadow: '3px 3px 5px #eb918aa3',
       },
       systemNameLink: {
-        color: '#daa09f',
+        color: '#eb918a',
       },
     },
     NDMobileArtistDetails: {
       bgContainer: {
         background:
-          'linear-gradient(to bottom, rgb(255 235 238 / 51%), rgb(250 250 250))!important',
+          'linear-gradient(to bottom, rgb(252 227 225 / 51%), rgb(250 250 250))!important',
       },
     },
   },
