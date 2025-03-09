@@ -13,9 +13,9 @@ export default {
   overrides: {
     MuiFilledInput: {
       root: {
-        backgroundColor: 'rgba(252, 227, 225, 0.04)',
+        backgroundColor: 'rgba(252, 227, 225, 1)',
         '&$disabled': {
-          backgroundColor: 'rgba(252, 227, 225, 0.04)',
+          backgroundColor: 'rgba(252, 227, 225, 1)',
         },
       },
     },
