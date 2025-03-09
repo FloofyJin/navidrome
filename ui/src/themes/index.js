@@ -10,6 +10,7 @@ import NordTheme from './nord'
 import GruvboxDarkTheme from './gruvboxDark'
 import CatppuccinMacchiatoTheme from './catppuccinMacchiato'
 import NuclearTheme from './nuclear'
+import LishaTheme from './lisha'
 
 export default {
   // Classic default themes
@@ -23,6 +24,7 @@ export default {
   GreenTheme,
   GruvboxDarkTheme,
   LigeraTheme,
+  LishaTheme,
   MonokaiTheme,
   NordTheme,
   NuclearTheme,
