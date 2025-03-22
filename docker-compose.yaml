@@ -1,0 +1,20 @@
+version: "1"
+services:
+  navidrome:
+    image: mynavidrome:latest
+    ports:
+      - 4533:4533
+    environment:
+      ND_SCANSCHEDULE: 24h
+      ND_LOGLEVEL: info
+      ND_BASEURL: null
+      ND_MUSICFOLDER: /music
+      ND_AUTOIMPORTPLAYLISTS: true
+      ND_UILOGINBACKGROUNDURL: https://i.imgur.com/zDYSJkw.jpeg
+      ND_UIWELCOMEMESSAGE: Welcome
+      ND_DEFAULTTHEME: Lisha
+      ND_SESSIONTIMEOUT: 24h
+    volumes:
+      - D:\tools\navidrome\storage\Data:/data
+      - D:\tools\navidrome\storage\Music:/music:ro
+    restart: unless-stopped
